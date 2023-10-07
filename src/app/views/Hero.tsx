@@ -18,7 +18,7 @@ export default function Hero() {
         width={1512}
         height={881}
         alt="Background image"
-        className="absolute top-[-89px] -z-10 h-[100%]"
+        className="absolute top-[-89px] right-0 -z-10 h-[100%]"
       />
       <h3 className="text-5xl font-semibold leading-snug relative w-fit z-10">
         Make Your Own <br /> Website and Mobile Application <br /> With Nodewave
