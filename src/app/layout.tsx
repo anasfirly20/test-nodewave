@@ -21,10 +21,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="px-longer">
+    <html lang="en" className="px-normal">
       <body className={poppins.className}>
         <Navbar />
-        {children}
+        <main className="relative">{children}</main>
       </body>
     </html>
   );
