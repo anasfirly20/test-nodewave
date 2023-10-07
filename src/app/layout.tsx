@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className="px-normal">
       <body className={poppins.className}>
         <Navbar />
-        <main className="relative">{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );

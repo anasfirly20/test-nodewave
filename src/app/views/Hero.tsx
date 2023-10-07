@@ -11,8 +11,8 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="h-[80vh] flex flex-col justify-center gap-4">
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 from-5% to-transparent to-90%" />
+    <section className="h-[80vh] flex flex-col justify-center gap-4 relative">
+      <div className="absolute h-full w-full bg-gradient-to-t from-black/70 from-5% to-transparent to-90%" />
       <Image
         src={background}
         width={1512}

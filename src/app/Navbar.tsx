@@ -1,12 +1,14 @@
 import Image from "next/image";
+import Link from "next/link";
 
 // Assets
 import logo from "../../public/assets/logo.webp";
 
 // Constants
 import { navItems } from "./constants/constants";
+
+// Components
 import CustomButton from "./components/CustomButton";
-import Link from "next/link";
 
 export default function Navbar() {
   const lastIndex = navItems.length - 1;
