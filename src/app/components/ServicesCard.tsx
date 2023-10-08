@@ -23,11 +23,11 @@ export default function ServicesCard({
   alt,
 }: TProps) {
   return (
-    <section className="bg-white flex h-[380px] rounded-2xl overflow-hidden">
-      <section className="flex flex-col justify-center text-black w-[55%] p-10 gap-10 text-center">
+    <section className="bg-white flex max-lg:aspect-square lg:h-[380px] rounded-2xl overflow-hidden">
+      <section className="flex flex-col justify-center text-black w-[55%] p-10 gap-5 lg:gap-10 text-center">
         <h2 className="font-semibold text-3xl tracking-tighter">{header}</h2>
         <section className="flex flex-col gap-1">
-          <h4 className="text-xl font-semibold">Start from</h4>
+          <h4 className="text-lg lg:text-xl font-semibold">Start from</h4>
           {startPrice && (
             <p className="line-through decoration-[#ff3839] text-[#717171] relative w-fit mx-auto">
               Rp, {startPrice}

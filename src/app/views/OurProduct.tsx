@@ -9,7 +9,7 @@ import Image from "next/image";
 import CustomButton from "../components/CustomButton";
 import CustomCard from "../components/CustomCard";
 
-export default function Product() {
+export default function OurProduct() {
   return (
     <section className="py-shorter3">
       <CustomHeader label="Our Product" />

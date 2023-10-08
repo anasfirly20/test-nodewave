@@ -38,7 +38,7 @@ export default function HowWeWork() {
         <Image
           src={chat}
           alt="chat image"
-          className="w-[60%] lg:w-[40%] h-full object-cover"
+          className="w-full lg:w-[40%] h-full object-cover"
         />
         <section className="flex flex-col gap-2 lg:gap-5 lg:w-[53%] max-lg:mt-5">
           <h6 className="font-medium text-xl">Estimate</h6>

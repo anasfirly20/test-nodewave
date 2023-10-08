@@ -43,7 +43,7 @@ export default function Navbar() {
       <a href="#" onClick={scrollToTop}>
         <Image src={logo} width={200} height={200} alt="Nodewave logo" />
       </a>
-      <ul className="flex items-center gap-5">
+      <ul className="hidden lg:flex items-center gap-5">
         {navItems?.map((item, index) => {
           return index === lastIndex ? (
             <CustomButton

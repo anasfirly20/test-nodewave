@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import arrow from "../../../public/assets/arrow.svg";
 
 type TProps = {
   src: string;
@@ -26,8 +27,15 @@ export default function CustomCard({
 }: TProps) {
   return (
     <section
-      className={`rounded-2xl py-[48px] px-[20px] flex gap-6 ${className}`}
+      className={`rounded-2xl py-[48px] px-[20px] flex gap-6 relative ${className}`}
     >
+      <Image
+        src={arrow}
+        width={20}
+        height={20}
+        alt="Arrow svg"
+        className="absolute right-10 bottom-8 w-fit hover:translate-x-2 transition-transform duration-300 hover:cursor-pointer"
+      />
       <Image src={src} width={width} height={height} alt={alt} />
       <div className="flex flex-col justify-center gap-2">
         <h4 className={`font-medium text-2xl ${classNameHeader}`}>

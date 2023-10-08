@@ -3,7 +3,7 @@ import AppMade from "./views/AppMade";
 import Hero from "./views/Hero";
 import HowWeWork from "./views/HowWeWork";
 import OurWorks from "./views/OurWorks";
-import Product from "./views/Product";
+import OurProduct from "./views/OurProduct";
 import Services from "./views/Services";
 import Testimony from "./views/Testimony";
 
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Product />
+      <OurProduct />
       <Testimony />
       <OurWorks />
       <HowWeWork />
