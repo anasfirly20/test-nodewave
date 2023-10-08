@@ -7,7 +7,7 @@ import { servicesData } from "../constants/constants";
 
 export default function Services() {
   return (
-    <section className="py-shorter">
+    <section className="py-shorter px-normal">
       <CustomHeader
         label="Start Creating Websites or Mobile Apps For You Now"
         className="text-center"

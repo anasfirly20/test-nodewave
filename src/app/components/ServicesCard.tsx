@@ -24,7 +24,7 @@ export default function ServicesCard({
 }: TProps) {
   return (
     <section className="bg-white flex h-[380px] rounded-2xl overflow-hidden">
-      <section className="flex flex-col justify-center text-black w-[60%] p-10 gap-10 text-center">
+      <section className="flex flex-col justify-center text-black w-[55%] p-10 gap-10 text-center">
         <h2 className="font-semibold text-3xl tracking-tighter">{header}</h2>
         <section className="flex flex-col gap-1">
           <h4 className="text-xl font-semibold">Start from</h4>
@@ -47,7 +47,7 @@ export default function ServicesCard({
           className="text-white w-[70%] mx-auto"
         />
       </section>
-      <Image src={src} alt={alt} className="w-[40%] h-full object-cover" />
+      <Image src={src} alt={alt} className="w-[45%] h-full object-cover" />
     </section>
   );
 }
