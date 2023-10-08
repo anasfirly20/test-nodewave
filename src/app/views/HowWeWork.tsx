@@ -8,20 +8,20 @@ import chat from "../../../public/assets/howWeWork/chat.svg";
 
 export default function HowWeWork() {
   const sectionStyle = {
-    backgroundImage: `url(${background.src})`, // Set the background image
-    backgroundSize: "cover", // Adjust the background size as needed
-    backgroundRepeat: "no-repeat", // Prevent the background image from repeating
-    backgroundPosition: "center center", // Center the background image
-    // minHeight: "665px", // Set a minimum height to cover the viewport
+    backgroundImage: `url(${background.src})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    // minHeight: "665px",
   };
 
   const cardSectionStyle = {
-    backgroundImage: `url(${cardBg.src})`, // Set the card background image
-    backgroundSize: "cover", // Adjust the background size as needed
-    backgroundRepeat: "no-repeat", // Prevent the background image from repeating
-    backgroundPosition: "center center", // Center the background image
-    padding: "2rem", // Adjust the padding as needed
-    backdropFilter: "blur(1000px)", // Apply the backdrop blur effect
+    backgroundImage: `url(${cardBg.src})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    padding: "2rem",
+    backdropFilter: "blur(1000px)",
   };
 
   return (

@@ -10,23 +10,19 @@ import CardOurWork from "../components/CardOurWork";
 
 export default function OurWorks() {
   const sectionStyle = {
-    backgroundImage: `url(${bg1.src})`, // Set the background image
-    backgroundSize: "cover", // Adjust the background size as needed
-    backgroundRepeat: "no-repeat", // Prevent the background image from repeating
-    backgroundPosition: "center center", // Center the background image
-    // minHeight: "520px", // Set a minimum height to cover the viewport
-    // minWidth: "873px",
-    backdropFilter: "blur(1000px)", // Apply the backdrop blur effect
+    backgroundImage: `url(${bg1.src})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backdropFilter: "blur(1000px)",
   };
 
   const sectionStyle2 = {
-    backgroundImage: `url(${bg2.src})`, // Set the background image
-    backgroundSize: "cover", // Adjust the background size as needed
-    backgroundRepeat: "no-repeat", // Prevent the background image from repeating
-    backgroundPosition: "center center", // Center the background image
-    // minHeight: "520px", // Set a minimum height to cover the viewport
-    // minWidth: "873px",
-    backdropFilter: "blur(1000px)", // Apply the backdrop blur effect
+    backgroundImage: `url(${bg2.src})`,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center center",
+    backdropFilter: "blur(1000px)",
   };
 
   return (

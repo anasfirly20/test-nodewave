@@ -1,5 +1,3 @@
-import React from "react";
-
 type TProps = {
   label: string;
   className?: string;

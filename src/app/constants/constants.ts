@@ -20,10 +20,6 @@ import yt from "../../../public/assets/socmed/yt.svg"
 import linkedin from "../../../public/assets/socmed/linkedin.svg"
 import ig from "../../../public/assets/socmed/ig.svg"
 
-// Our Works
-import img1 from "../../../public/assets/ourWork/ourwork1.webp"
-import img2 from "../../../public/assets/ourWork/ourwork2.webp"
-
 export const navItems: TNavItems[] = [
     {
       id: 1,
@@ -145,18 +141,4 @@ export const servicesData = [
 
 // Footer
 export const footerItems: any[] = [fb, tw, yt, linkedin, ig]
-
-// Our Works
-export const dataOurWorks = [
-  {
-    src: "",
-    header: "Rayu Motor",
-    desc: "AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales"
-  },
-  {
-    src: "",
-    header: "Rayu Motor",
-    desc: "AC Service Workshop that has implemented online registration to make it easier for consumers, mechanics, and sales"
-  },
-]
 

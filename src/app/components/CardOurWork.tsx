@@ -1,13 +1,10 @@
 import Image from "next/image";
-import React from "react";
 
 type TSectionStyle = {
   backgroundImage: string;
   backgroundSize: string;
   backgroundRepeat: string;
   backgroundPosition: string;
-  minHeight?: string;
-  minWidth?: string;
   backdropFilter: string;
 };
 
