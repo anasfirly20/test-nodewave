@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Assets
-import logo from "../../public/assets/logo.webp";
+import logo from "../../public/assets/logo.svg";
 
 // Constants
 import { navItems } from "./constants/constants";
@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center py-4 z-10 pr-shorter2">
       <Link href="/">
-        <Image src={logo} width={200} height={200} alt="Logo" />
+        <Image src={logo} width={200} height={200} alt="Nodewave logo" />
       </Link>
       <ul className="flex items-center gap-5">
         {navItems?.map((item, index) => {

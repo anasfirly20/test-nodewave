@@ -13,6 +13,13 @@ import workshop from "../../../public/assets/appThatMade/workshop.svg"
 import service1 from "../../../public/assets/services/service1.webp"
 import service2 from "../../../public/assets/services/service2.webp"
 
+// Footer
+import fb from "../../../public/assets/socmed/fb.svg"
+import tw from "../../../public/assets/socmed/tw.svg"
+import yt from "../../../public/assets/socmed/yt.svg"
+import linkedin from "../../../public/assets/socmed/linkedin.svg"
+import ig from "../../../public/assets/socmed/ig.svg"
+
 export const navItems: TNavItems[] = [
     {
       id: 1,
@@ -131,3 +138,6 @@ export const servicesData = [
     src: service2,
   },
 ]
+
+// Footer
+export const footerItems: any[] = [fb, tw, yt, linkedin, ig]

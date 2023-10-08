@@ -1,7 +1,11 @@
-import Image from "next/image";
-import React from "react";
+// Components
 import CustomButton from "./CustomButton";
+
+// Assets
 import discount from "../../../public/assets/services/discount.svg";
+
+// Miscellaneous
+import Image from "next/image";
 
 type TProps = {
   header: string;
