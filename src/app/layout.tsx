@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 
 // Components
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 const poppins = Poppins({

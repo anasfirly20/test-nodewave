@@ -17,7 +17,9 @@ export default function Footer() {
         <section className="flex gap-5 justify-center">
           {footerItems?.map((item, index) => {
             return (
-              <Image key={index} src={item} width={30} height={30} alt={item} />
+              <a key={index} href="#">
+                <Image src={item} width={30} height={30} alt={item} />
+              </a>
             );
           })}
         </section>

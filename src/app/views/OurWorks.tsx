@@ -30,7 +30,7 @@ export default function OurWorks() {
   };
 
   return (
-    <>
+    <section className="py-shorter2">
       <CustomHeader label="Our Works" />
       <section className="flex gap-5 overflow-x-scroll hide-scrollbar">
         <CardOurWork
@@ -62,6 +62,6 @@ export default function OurWorks() {
         to make it easier for consumers, mechanics, and sales"
         />
       </section>
-    </>
+    </section>
   );
 }
