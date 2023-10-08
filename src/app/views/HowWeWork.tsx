@@ -12,7 +12,7 @@ export default function HowWeWork() {
     backgroundSize: "cover", // Adjust the background size as needed
     backgroundRepeat: "no-repeat", // Prevent the background image from repeating
     backgroundPosition: "center center", // Center the background image
-    minHeight: "665px", // Set a minimum height to cover the viewport
+    // minHeight: "665px", // Set a minimum height to cover the viewport
   };
 
   const cardSectionStyle = {
@@ -25,21 +25,24 @@ export default function HowWeWork() {
   };
 
   return (
-    <section className="my-shorter2 py-shorter3" style={sectionStyle}>
+    <section
+      className="my-shorter2 py-shorter3 lg:h-[665px] max-lg:p-5"
+      style={sectionStyle}
+    >
       <CustomHeader label="How We Work" />
       <section
-        className="p- w-[773px] h-[502px] mx-auto flex justify-between relative rounded-lg overflow-hidden"
+        className="w-fit lg:w-[773px] lg:h-[502px] lg:mx-auto flex items-center max-lg:flex-col justify-between relative rounded-lg overflow-hidden"
         style={cardSectionStyle}
       >
         <div className="absolute inset-0 bg-black/20 backdrop-blur-sm -z-10" />
         <Image
           src={chat}
           alt="chat image"
-          className="w-[40%] h-full object-cover"
+          className="w-[60%] lg:w-[40%] h-full object-cover"
         />
-        <section className="flex flex-col gap-5 w-[53%]">
+        <section className="flex flex-col gap-2 lg:gap-5 lg:w-[53%] max-lg:mt-5">
           <h6 className="font-medium text-xl">Estimate</h6>
-          <p className="text-lg">
+          <p className="text-base lg:text-lg">
             Estimate the cost of creating your application with us. Pricing is
             transparent at the start with a gradual payment method.
           </p>
