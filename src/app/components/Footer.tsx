@@ -1,5 +1,3 @@
-import React from "react";
-
 import logo from "../../../public/assets/logo.svg";
 import Image from "next/image";
 import { footerItems } from "../constants/constants";
@@ -14,7 +12,7 @@ export default function Footer() {
           Graha Pena Surabaya <br /> Jl. Ahmad Yani no. 88 Surabaya <br /> Phone
           : +62811258280 <br /> Email : support@nodewave.id
         </p>
-        <section className="flex gap-5 justify-center">
+        <section className="flex gap-5 justify-center items-center">
           {footerItems?.map((item, index) => {
             return (
               <a key={index} href="#">
