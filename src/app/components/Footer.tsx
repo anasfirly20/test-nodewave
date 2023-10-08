@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center py-shorter">
       <Image src={logo} width={250} height={250} alt="Nodewave logo" />
-      <section className="flex flex-col gap-14 pt-shorter2 text-center">
+      <section className="flex flex-col gap-7 lg:gap-14 pt-shorter2 text-center">
         <h6 className="font-medium text-xl">PT NODEWAVE SOLUSI TEKNOLOGI</h6>
         <p className="font-medium text-xl">
           Graha Pena Surabaya <br /> Jl. Ahmad Yani no. 88 Surabaya <br /> Phone

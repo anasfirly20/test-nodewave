@@ -13,8 +13,8 @@ export default function Product() {
   return (
     <section className="py-shorter3">
       <CustomHeader label="Our Product" />
-      <section className="flex justify-between px-normal">
-        <section className="w-[38%] flex flex-col gap-5">
+      <section className="flex justify-between lg:px-normal flex-wrap max-lg:gap-5">
+        <section className="w-full lg:w-[38%] flex flex-col gap-5">
           <CustomCard
             src={mobileSvg}
             width={80}
@@ -33,12 +33,12 @@ export default function Product() {
             alt="Mobile Svg"
             cardTitle="Website"
             p="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            className="self-center w-[95%] border-2 border-white h-[174px]"
+            className="self-center w-full lg:w-[95%] border-2 border-white h-[174px]"
             classNameHeader="text-white"
             classNameDesc="text-white"
           />
         </section>
-        <section className="w-[60%] bg-white rounded-2xl p-[40px] h-[415px] flex flex-col gap-6">
+        <section className="w-full lg:w-[60%] bg-white rounded-2xl p-[40px] lg:h-[415px] flex flex-col gap-6">
           <figure className="flex justify-center gap-3">
             {Array(3)
               ?.fill(3)

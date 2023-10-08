@@ -20,27 +20,28 @@ export default function Hero() {
         alt="Background image"
         className="absolute top-[-89px] right-0 -z-10 h-[100%]"
       />
-      <h3 className="text-5xl font-semibold leading-snug relative w-fit z-10">
-        Make Your Own <br /> Website and Mobile Application <br /> With Nodewave
+      <h3 className="text-4xl lg:text-5xl font-semibold leading-snug relative w-fit z-10">
+        Make Your Own <br className="max-lg:hidden" /> Website and Mobile
+        Application <br className="max-lg:hidden" /> With Nodewave
         <Image
           src={code}
           width={30}
           height={30}
           alt="sss"
-          className="absolute -top-6 -left-4 rotate-6"
+          className="absolute -top-6 lg:-left-4 rotate-6"
         />
         <Image
           src={head}
           width={33}
           height={33}
           alt="sss"
-          className="absolute bottom-2 left-[24.5rem]"
+          className="absolute bottom-2 left-[24.5rem] max-lg:hidden"
         />
       </h3>
       <CustomButton label="Get Started Now" className="w-fit z-10" />
-      <p className="text-2xl mt-4 z-10">
+      <p className="text-xl lg:text-2xl mt-4 z-10">
         Create Mobile Applications and Websites for Companies or Your Business{" "}
-        <br />
+        <br className="max-lg:hidden" />
         Have a transparent pricing, easy and straightforward development process
       </p>
     </section>

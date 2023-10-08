@@ -9,7 +9,7 @@ export default function Testimony() {
   return (
     <section className="py-shorter">
       <CustomHeader label="Testimony" className="text-start" />
-      <section className="flex gap-5">
+      <section className="flex max-lg:flex-wrap gap-5">
         {dataCarousel?.map((data, index) => (
           <TestimonyCard key={index} desc={data?.desc} author={data?.author} />
         ))}

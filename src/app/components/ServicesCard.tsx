@@ -44,7 +44,7 @@ export default function ServicesCard({
         </section>
         <CustomButton
           label="Order Now"
-          className="text-white w-[70%] mx-auto"
+          className="text-white lg:w-[70%] mx-auto"
         />
       </section>
       <Image src={src} alt={alt} className="w-[45%] h-full object-cover" />

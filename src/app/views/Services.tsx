@@ -7,12 +7,12 @@ import { servicesData } from "../constants/constants";
 
 export default function Services() {
   return (
-    <section className="py-shorter px-normal">
+    <section className="py-shorter lg:px-normal">
       <CustomHeader
         label="Start Creating Websites or Mobile Apps For You Now"
         className="text-center"
       />
-      <section className="grid grid-cols-2 gap-20">
+      <section className="grid lg:grid-cols-2 gap-10 lg:gap-20">
         {servicesData?.map((data, i) => {
           return (
             <ServicesCard

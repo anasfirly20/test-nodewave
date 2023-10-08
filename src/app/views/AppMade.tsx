@@ -11,7 +11,7 @@ export default function AppMade() {
         label="Applications that can be made"
         className="text-center"
       />
-      <section className="grid grid-cols-3 gap-5">
+      <section className="grid lg:grid-cols-3 gap-10 lg:gap-5">
         {dataAppMade?.map((data, index) => {
           return (
             <section key={index} className="space-y-5">
@@ -29,7 +29,7 @@ export default function AppMade() {
           );
         })}
       </section>
-      <section className="flex items-center gap-10 py-10">
+      <section className="grid lg:flex items-center gap-10 py-10">
         {dataAppMade2?.map((data, index) => {
           return (
             <section key={index} className="flex items-center gap-2">
