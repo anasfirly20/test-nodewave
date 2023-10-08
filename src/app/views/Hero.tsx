@@ -19,6 +19,7 @@ export default function Hero() {
         height={881}
         alt="Background image"
         className="absolute top-[-89px] right-0 -z-10 h-[100%]"
+        priority={true}
       />
       <h3 className="text-4xl lg:text-5xl font-semibold leading-snug relative w-fit z-10">
         Make Your Own <br className="max-lg:hidden" /> Website and Mobile
@@ -29,6 +30,7 @@ export default function Hero() {
           height={30}
           alt="sss"
           className="absolute -top-6 lg:-left-4 rotate-6"
+          priority={true}
         />
         <Image
           src={head}
@@ -36,6 +38,7 @@ export default function Hero() {
           height={33}
           alt="sss"
           className="absolute bottom-2 left-[24.5rem] max-lg:hidden"
+          priority={true}
         />
       </h3>
       <CustomButton label="Get Started Now" className="w-fit z-10" />
