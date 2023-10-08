@@ -37,7 +37,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`flex justify-between items-center py-4 z-10 pr-shorter2 sticky top-0 ${
+      className={`flex justify-between items-center py-4 z-10 pr-shorter2 sticky top-0 z-30 ${
         scrolled ? "bg-black/90 transition-bg duration-500 ease-in-out" : ""
       }`}
     >
