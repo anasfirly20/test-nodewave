@@ -15,7 +15,11 @@ export default function Footer() {
         <section className="flex gap-5 justify-center items-center">
           {footerItems?.map((item, index) => {
             return (
-              <a key={index} href="#">
+              <a
+                key={index}
+                href="#"
+                className="hover:scale-110 transition-transform duration-300"
+              >
                 <Image src={item} width={30} height={30} alt={item} />
               </a>
             );
