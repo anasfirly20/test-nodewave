@@ -28,14 +28,12 @@ export default function Navbar() {
       }
     };
 
-    // Add the scroll event listener when the component mounts
     window.addEventListener("scroll", handleScroll);
 
-    // Remove the scroll event listener when the component unmounts
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // Empty dependency array means this effect runs once, when the component mounts
+  }, []);
 
   return (
     <nav

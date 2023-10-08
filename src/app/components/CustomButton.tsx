@@ -3,7 +3,7 @@ import React from "react";
 type TProps = {
   label: string;
   className?: string;
-  onClick?: () => void;
+  onClick?: any;
 };
 
 export default function CustomButton({ label, className, onClick }: TProps) {
