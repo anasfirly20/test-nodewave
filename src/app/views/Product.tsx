@@ -1,5 +1,3 @@
-import React from "react";
-
 // Components
 import CustomHeader from "../components/CustomHeader";
 
