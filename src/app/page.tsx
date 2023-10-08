@@ -1,5 +1,7 @@
 // Views
+import AppMade from "./views/AppMade";
 import Hero from "./views/Hero";
+import OurWorks from "./views/OurWorks";
 import Product from "./views/Product";
 import Testimony from "./views/Testimony";
 
@@ -9,6 +11,8 @@ export default function Home() {
       <Hero />
       <Product />
       <Testimony />
+      <OurWorks />
+      <AppMade />
     </>
   );
 }
