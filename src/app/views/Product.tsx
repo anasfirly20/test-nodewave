@@ -13,7 +13,7 @@ import CustomCard from "../components/CustomCard";
 
 export default function Product() {
   return (
-    <section className="pb-shorter2">
+    <section className="py-shorter3">
       <CustomHeader label="Our Product" />
       <section className="flex justify-between px-normal">
         <section className="w-[38%] flex flex-col gap-5">

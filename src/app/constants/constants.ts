@@ -9,6 +9,10 @@ import chat from "../../../public/assets/appThatMade/chat.svg"
 import construction from "../../../public/assets/appThatMade/construction.svg"
 import workshop from "../../../public/assets/appThatMade/workshop.svg"
 
+// Services
+import service1 from "../../../public/assets/services/service1.webp"
+import service2 from "../../../public/assets/services/service2.webp"
+
 export const navItems: TNavItems[] = [
     {
       id: 1,
@@ -109,5 +113,21 @@ export const dataAppMade2 = [
   {
     icon: construction,
     header: "Construction"
+  },
+]
+
+// Services
+export const servicesData = [
+  {
+    header: "Website",
+    startPrice: "1.000.000",
+    newPrice: "500.000",
+    src: service1,
+  },
+  {
+    header: "Mobile Apps",
+    startPrice: "",
+    newPrice: "999.000",
+    src: service2,
   },
 ]
